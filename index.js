@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:false}));
 //app.use(cors());
 app.use(cors({
     credentials:true,
-    origin: ['http://localhost:3000', 'https://simple-planner-project.herokuapp.com']
+    origin: ['http://localhost:3000', 'https://app-planner-simple.herokuapp.com']
 }));
 app.use(cookieParser());
 
