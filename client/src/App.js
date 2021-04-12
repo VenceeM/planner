@@ -2,8 +2,12 @@ import React,{useState,useEffect} from 'react';
 import './App.css';
 import axios from 'axios';
 import Router from './routers/Router';
+import $ from 'jquery';
+import Popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-datepicker/dist/react-datepicker.css';
+import 'bootstrap/dist/js/bootstrap.min';
+
 import {useSelector,useDispatch} from 'react-redux';
 import {loginDispatch,fetchUser,dispatchUser} from './actions/auth';
 import * as api from './api/index';
@@ -18,6 +22,8 @@ function App() {
     const [currentId,setCurrentId] = useState(null);
     const dispatch = useDispatch();
     async function getLoggedIn(){
+      //http://localhost:5000
+      //https://app-planner-simple.herokuapp.com
         const loggedInRes = await axios.get('https://app-planner-simple.herokuapp.com/auth/loggedIn');
         
         if(!loggedInRes.data.access_token){

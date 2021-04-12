@@ -2,6 +2,7 @@ import axios from 'axios';
 
 
 //auth
+//https://app-planner-simple.herokuapp.com
 //https://planner-simple-app.herokuapp.com/
 //https://simple-planner-project.herokuapp.com
 axios.defaults.baseURL ='https://app-planner-simple.herokuapp.com';
