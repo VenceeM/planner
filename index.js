@@ -19,6 +19,9 @@ app.use(cors());
 //     credentials:true,
 //     origin: ['http://localhost:3000', 'https://app-planner-simple.herokuapp.com']
 // }));
+app.use((req,res)=>{
+    res.header({"Access-Control-Allow-Origin": "*"});
+})
 app.use(cookieParser());
 
 app.use('/auth', userRouter);
