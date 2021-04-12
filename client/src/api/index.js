@@ -4,7 +4,7 @@ import axios from 'axios';
 //auth
 //https://planner-simple-app.herokuapp.com/
 //https://simple-planner-project.herokuapp.com
-axios.defaults.baseURL ='https://simple-planner-project.herokuapp.com';
+axios.defaults.baseURL ='https://app-planner-simple.herokuapp.com';
 // const URL_REGISTER = 'http://localhost:5000/auth/register';
 // const URL_LOGIN = 'http://localhost:5000/auth/login';
 // const URL_LOGOUT = 'http://localhost:5000/auth/logout';

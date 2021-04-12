@@ -18,7 +18,7 @@ function App() {
     const [currentId,setCurrentId] = useState(null);
     const dispatch = useDispatch();
     async function getLoggedIn(){
-        const loggedInRes = await axios.get('https://simple-planner-project.herokuapp.com//auth/loggedIn');
+        const loggedInRes = await axios.get('https://app-planner-simple.herokuapp.com/auth/loggedIn');
         
         if(!loggedInRes.data.access_token){
           return console.log("");
