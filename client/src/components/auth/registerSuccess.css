@@ -1,0 +1,21 @@
+.suc {
+  width: 100%;
+  height: 100%;
+}
+
+.suc {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+.succBody {
+  text-align: center;
+
+  height: 100%;
+  margin-top: 55px;
+  font-weight: 500;
+  font-size: 20px;
+}

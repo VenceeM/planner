@@ -1,0 +1,78 @@
+.planList {
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+}
+
+#bt {
+  background-color: rgb(179, 21, 21);
+  color: white;
+  transition: 450ms;
+}
+
+#yesterday {
+  background-color: #8a1f1f;
+  color: white;
+  transition: 450ms;
+}
+
+#sched {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  transition: 450ms;
+}
+
+#yesterday:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+#bt:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+#sched:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+p#p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.diaglogTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnUpdate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dialogTi {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+.dialogContent {
+  background-color: rgb(255, 255, 255);
+}
+
+.btnUpdateDialog {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.iconBtn {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.dots {
+  background-color: white;
+}

@@ -1,0 +1,20 @@
+.rootValidation {
+  width: 100%;
+}
+.error {
+  width: 100%;
+  text-align: center;
+
+  color: red;
+}
+
+.err {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.success {
+  text-align: center;
+
+  color: green;
+}
