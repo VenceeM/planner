@@ -51,6 +51,7 @@ function PlanCreate({update,currentId,setCurrentId}) {
             update();
             setPlanner({...planner,title:'',date: new Date(), description:'',err:'',succ:data.message});
             setCurrentId(null);
+            history.push('/');
 
         }catch(err){
             console.log(err);
