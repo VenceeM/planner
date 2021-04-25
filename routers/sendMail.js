@@ -30,8 +30,9 @@ const sendMail = async function(to,url) {
         });
         const accessToken = await oauth2Client.getAccessToken();
         const smtpTransport = nodemailer.createTransport({
-            service:'gmail',
-           
+            host:'smtp.gmail.com',
+            port:465,
+            secure:true,
             auth:{
                 type: 'OAuth2',
                 user: 'donotreply.planner@gmail.com',

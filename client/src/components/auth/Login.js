@@ -113,7 +113,7 @@ function Login() {
                             
 
                             <GoogleLogin className="goo"
-                                clientId="732615304064-bk2rkejst3f0cl5haf334v6vame003v5.apps.googleusercontent.com"
+                                clientId="1002501696053-mivgijq6np1tmp192jr7l22jfaf46e4a.apps.googleusercontent.com"
                                 buttonText="Login with Google"
                                 
                                 onSuccess={responseGoogle}
